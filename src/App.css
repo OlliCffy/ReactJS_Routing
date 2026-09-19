@@ -1,0 +1,38 @@
+body{
+	background-color: #d2ebf7;
+}
+
+.page{
+	background-color: #7ca7cf;
+	padding: 50px;
+	margin: 100px;
+}
+
+.page ul{
+	padding-left: 20px;
+	margin-top: 10px;
+}
+
+.profile{
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+}
+
+.name{
+	background-color: #d2ebf7;
+	padding: 20px;
+	margin-right: 200px;
+}
+
+.list{
+	background-color: #d2ebf7;
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+	margin: 20px;
+}
+
+.image img{
+	width: 400px;
+}
