@@ -23,6 +23,7 @@ body{
 	background-color: #d2ebf7;
 	padding: 20px;
 	margin-right: 200px;
+	border-radius: 50px;
 }
 
 .list{
@@ -31,8 +32,10 @@ body{
 	justify-content: space-between;
 	padding: 20px;
 	margin: 20px;
+	border-radius: 50px;
 }
 
 .image img{
 	width: 400px;
+	border-radius: 50px;
 }
