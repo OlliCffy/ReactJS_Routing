@@ -1,13 +1,19 @@
 import './App.css'
-import Profile from './Profile'
-import List from './List'
+import {BrowserRouter, Routes, Route} from 'react-router-dom'
+
+import Page from './Page'
+import Artwork from './Artwork'
+import Social from './Social'
 
 function App(){
 	return(
-		<div className="page">
-			<Profile />
-			<List />
-		</div>
+		<BrowserRouter>
+			<Routes>
+				<Route path="/" element={<Page />} />
+				<Route path="/artwork" element={<Artwork />} />
+				<Route path="/social" element={<Social />} />
+			</Routes>
+		</BrowserRouter>
 	)
 }
 
